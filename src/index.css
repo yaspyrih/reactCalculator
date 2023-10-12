@@ -21,6 +21,11 @@
 body {
     background-color: rgb(69, 68, 68);
 }
+.Text {
+    color: #e07a7a;
+    text-align: center;
+    display: inline-block;
+}
 
 .App {
     display: flex;

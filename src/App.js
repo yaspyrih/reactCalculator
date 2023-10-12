@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 function App() {
+  
   const [calc, setCalc] = useState("");
   const [result, setResult] = useState("");
 
@@ -51,6 +52,10 @@ function App() {
 
   return (
     <div className="App">
+      <div className="Text">
+      <h2>You can totally write 'BOOBS' here.</h2>
+      <h3>En esta calculadora se puede escribir "EL.BEBE".</h3>
+      </div>
       <div className="calculator">
         <div className="display">
             {result ? <span>({result})</span> : ''}&nbsp;
