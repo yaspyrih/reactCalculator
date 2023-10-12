@@ -18,6 +18,7 @@ function App() {
     setCalc(calc + value);
 
     if(!ops.includes(value)) {
+      //eslint-disable-next-line
       setResult(eval(calc + value).toString());
     }
   }
