@@ -41,7 +41,7 @@ function App() {
   }
 
   const deleteLast = () => {
-    if (calc == '') {
+    if (calc === '') {
       return;
     }
 
