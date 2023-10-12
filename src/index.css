@@ -24,11 +24,14 @@ body {
 .Text {
     color: #e07a7a;
     text-align: center;
-    display: inline-block;
+    display: inline-flexbox;
+    flex-direction: column;
+    margin: 2em;
 }
 
 .App {
-    display: flex;
+    display: inline-flexbox;
+    flex-direction: column;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
@@ -36,6 +39,7 @@ body {
 }
 
 .calculator {
+    margin: auto;
     transform: rotate(180deg); 
     width: 100%;
     max-width: 400px;

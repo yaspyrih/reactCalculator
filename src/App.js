@@ -18,7 +18,6 @@ function App() {
     setCalc(calc + value);
 
     if(!ops.includes(value)) {
-      //eslint-disable-next-line
       setResult(eval(calc + value).toString());
     }
   }
@@ -55,6 +54,7 @@ function App() {
   return (
     <div className="App">
       <div className="Text">
+      <h1>Ambigram Calculator</h1>
       <h2>You can totally write 'BOOBS' here.</h2>
       <h3>En esta calculadora se puede escribir "EL.BEBE".</h3>
       <p>De Yas para Codo a Codo.</p>
