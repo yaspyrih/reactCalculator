@@ -55,6 +55,7 @@ function App() {
       <div className="Text">
       <h2>You can totally write 'BOOBS' here.</h2>
       <h3>En esta calculadora se puede escribir "EL.BEBE".</h3>
+      <p>De Yas para Codo a Codo.</p>
       </div>
       <div className="calculator">
         <div className="display">
