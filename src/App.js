@@ -56,7 +56,7 @@ function App() {
     <div className="App">
       <div className="Text">
       <h1>Ambigram Calculator</h1>
-      <h2>You can totally write 'BOOBS' here.</h2>
+      <h2>You can totally write 'hELLO' here.</h2>
       <h3>En esta calculadora se puede escribir "EL.BEBE".</h3>
       <p>De Yas para Codo a Codo.</p>
       </div>
